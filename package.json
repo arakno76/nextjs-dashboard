@@ -4,6 +4,7 @@
     "build": "next build",
     "dev": "next dev",
     "start": "next start",
+    "lint": "next lint",
     "next-dev": "pnpm dev && msedge http://localhost:3000"
   },
   "dependencies": {
@@ -27,8 +28,12 @@
     "@types/node": "20.14.8",
     "@types/react": "18.3.3",
     "@types/react-dom": "18.3.0",
-    "eslint": "^9.10.0",
-    "eslint-config-prettier": "^9.0.2",
+    "@typescript-eslint/eslint-plugin": "^8.5.0",
+    "@typescript-eslint/parser": "^8.5.0",
+    "eslint": "^8.41.0",
+    "eslint-config-next": "14.2.11",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-react": "^7.36.1",
     "prettier": "^2.7.1",
     "typescript": "5.5.2"
   },
